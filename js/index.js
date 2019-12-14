@@ -87,7 +87,8 @@ function init() {
   controls =  new THREEx.ArMarkerControls(context, marker, {
     barcodeValue:"Hiro",
     type: "pattern",
-    patternUrl: THREEx.ArToolkitContext.baseURL+'examples/marker-training/examples/pattern-files/pattern-hiro.patt'
+    //patternUrl: THREEx.ArToolkitContext.baseURL+'examples/marker-training/examples/pattern-files/pattern-hiro.patt'
+    patternUrl: /marker/pattern-ar.patt
   });
   scene.add(marker);
 
@@ -103,7 +104,7 @@ function init() {
   };
     
   /* pmd, vmd File */
-  var modelFile = './mmd/Gちゃん_ハイポリ版Toon.pmx'; //エッジ無しverにしないと描画が変になる
+  var modelFile = './mmd/Lat式ミクVer2.31_Normalエッジ無し専用.pmd'; //エッジ無しverにしないと描画が変になる
   
   var vmdFiles = ['./mmd/vmd/地球最後の告白を_Latミクv2.31S_b.vmd'];
 
