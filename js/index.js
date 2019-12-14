@@ -87,8 +87,8 @@ function init() {
   controls =  new THREEx.ArMarkerControls(context, marker, {
     barcodeValue:"Hiro",
     type: "pattern",
-    //patternUrl: THREEx.ArToolkitContext.baseURL+'examples/marker-training/examples/pattern-files/pattern-hiro.patt'
-    patternUrl: /marker/pattern-ar.patt
+    patternUrl: THREEx.ArToolkitContext.baseURL+'examples/marker-training/examples/pattern-files/pattern-hiro.patt'
+    //patternUrl: /marker/pattern-ar.patt
   });
   scene.add(marker);
 
